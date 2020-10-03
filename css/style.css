@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: 100% 100% no-repeat;
+    cursor: pointer;
+}
+
+body, html {
+    height: 250px;
+    width: 300px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.anim {
+    animation: anim 1.5s infinite linear;
+}
+
+.boroPlus_slide{
+    height: 250px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    background: url("../images/bg.jpg");
+}
+
+.discount_pack{
+    background: url("../images/Asset_9.png");
+    width: 116px;
+    height: 61px;
+    position: absolute;
+    top: 16px;
+    left: 87px;
+}
+.discount_code{
+    background: url("../images/Asset_10.png");
+    width: 117px;
+    height: 41px;
+    top: 58px;
+    left: 100px;
+}
+
+.buy_now{
+    background: url("../images/buy_now.png");
+    width: 112px;
+    height: 55px;
+}
+
+.product_1{
+    background: url("../images/1.png");
+    width: 143px;
+    height: 163px;
+    top: 244px;
+    left: 87px;
+}
+
+.product_2{
+    background: url("../images/2.png");
+    width: 140px;
+    height: 176px;
+    top: 100px;
+    left: -4px;
+}
+.product_3{
+    background: url("../images/3.png");
+    width: 145px;
+    height: 172px;
+    top: 110px;
+    left: 122px;
+}
+.product_4{
+    background: url("../images/4.png");
+    width: 128px;
+    height: 122px;
+    top: 151px;
+    left: 64px;
+}
+
+.discount_pack {
+    opacity: 1;
+    animation: fade 2s infinite;
+}
+
+
+@keyframes fade {
+    0%,100% { opacity: 0 }
+    50% { opacity: 1 }
+}
+
+.product_1 {
+    -webkit-animation: mover 2s ease     ;
+    animation: mover 2s ease;
+    /*width: 143px;*/
+    /*height: 163px;*/
+    top: 88px;
+    /*bottom: 244px;*/
+    position: absolute;
+    /*left: 87px;*/
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+@-webkit-keyframes mover {
+    from { bottom:-50px; opacity:0 }
+    to { bottom:0px; opacity:1 }
+}
+@keyframes mover {
+    from{ bottom:-50px; opacity:0 }
+    to{ bottom:0; opacity:1 }
+}
+
+
+
+.product_2 {
+    -webkit-animation: mover 2s ease     ;
+    animation: mover 2s ease;
+    width: 140px;
+    height: 176px;
+    top: 100px;
+    left: -4px;
+    position: absolute;
+    /*left: 87px;*/
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+/*@-webkit-keyframes mover {*/
+    /*0% { transform: translateY(0); }*/
+    /*100% { transform: translateY(-100px); }*/
+/*}*/
+/*@keyframes mover {*/
+    /*0% { transform: translateY(0); }*/
+    /*100% { transform: translateY(-100px); }*/
+/*}*/
+
+
+.product_3 {
+    -webkit-animation: mover 2s ease     ;
+    animation: mover 2s ease;
+    /*width: 143px;*/
+    /*height: 163px;*/
+    /*top: 88px;*/
+    /*bottom: 244px;*/
+    position: absolute;
+    /*left: 87px;*/
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+/*@-webkit-keyframes mover {*/
+    /*0% { transform: translateY(0); }*/
+    /*100% { transform: translateY(-100px); }*/
+/*}*/
+/*@keyframes mover {*/
+    /*0% { transform: translateY(0); }*/
+    /*100% { transform: translateY(-100px); }*/
+/*}*/
+
+
+.product_4 {
+    -webkit-animation: mover 2s ease     ;
+    animation: mover 2s ease;
+    /*width: 143px;*/
+    /*height: 163px;*/
+    /*top: 88px;*/
+    /*bottom: 244px;*/
+    position: absolute;
+    /*left: 87px;*/
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100px); }
+}
+
+
+/*@keyframes anim {*/
+    /*0%,*/
+    /*100% {*/
+        /*opacity: 1;*/
+        /*transform: scale(1.1);*/
+    /*}*/
+    /*50% {*/
+        /*opacity: 0.95;*/
+        /*transform: scale(1);*/
+    /*}*/
+/*}*/
